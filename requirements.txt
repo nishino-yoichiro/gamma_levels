@@ -1,0 +1,6 @@
+Flask
+numpy
+scipy
+py_vollib
+yfinance
+matplotlib

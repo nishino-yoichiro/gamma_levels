@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Option Pricing Calculator</title>
+</head>
+<body>
+    <h1>Option Pricing Calculator</h1>
+    <form action="/calculate" method="post">
+        <label for="ticker">Ticker:</label>
+        <input type="text" id="ticker" name="ticker"><br><br>
+        
+        <label for="date">Expiration date (YYYY-MM-DD):</label>
+        <input type="text" id="date" name="date"><br><br>
+        
+        <label for="control">Graph type ('s' for strike graph, 'op' for option price graph):</label>
+        <input type="text" id="control" name="control"><br><br>
+        
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
